@@ -1,0 +1,16 @@
+HTML:
+HTML is the backbone of any web page. It structures the content and defines the semantic meaning of different parts of the page.
+Elements and Tags: HTML uses elements and tags to structure the content. Common tags include <h1> to <h6> for headings, <p> for paragraphs.
+Attributes: Tags can have attributes that provide additional information. For example, <script> specifies the URL for a link.
+Semantic HTML: Using semantic tags like <header>, <footer>.
+
+CSS: CSS is used to control the presentation and layout of the HTML content. It separates the visual design from the content structure.
+Selectors: CSS rules target HTML elements using selectors, such as element selectors (h1), class selectors (.className).
+Properties and Values: Each CSS rule consists of properties and their corresponding values, like Background-color:aqua;
+
+JavaScript:JavaScript adds interactivity to web pages. It allows developers to create dynamic content that can respond to user actions.
+Variables and Data Types: JavaScript uses variables to store data, which can be of various types like numbers, strings, objects, and arrays.
+Functions: Functions encapsulate code that performs specific tasks, making the code reusable and modular.
+DOM Manipulation: JavaScript can interact with and modify the HTML and CSS of a web page through the Document Object Model (DOM).
+
+Thoughts:HTML practices are about more than just getting content to display correctly. Using semantic elements improves accessibility and SEO, making the web more usable for everyone.Mastering CSS can be challenging due to the need to account for various screen sizes and browsers. Tools like Flexbox and Grid have revolutionized layout design, making it more intuitive and flexible. JavaScript's flexibility and power come with complexity. Modern frameworks and libraries (like React, Vue, and Angular) help manage this complexity by providing structure and reusable components.

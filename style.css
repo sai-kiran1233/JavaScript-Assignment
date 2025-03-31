@@ -1,0 +1,39 @@
+/* The CSS code `body{ background-color: aqua; overflow: hidden; }` is styling the body element of the
+HTML document. */
+body{
+    background-color: aqua;
+    overflow: hidden;
+}
+.text1{
+    margin-top: 50px;
+
+}
+/* The CSS code `.name` is targeting elements with the class "name" in the HTML document. It is styling
+these elements by:
+- Setting the text alignment to center using `text-align: center;`
+- Adding an underline decoration to the text using `text-decoration: underline;`
+- Creating a bottom margin of 20px below the elements using `margin-bottom: 20px;` */
+.name{
+    text-align: center;
+    text-decoration:underline;
+    margin-bottom: 20px;
+}
+.buttons{
+    margin-bottom: 20px;
+}
+/* The CSS code `.answer{ position:relative; margin-top: 50px; left: 500px; }` is styling elements with
+the class "answer". It is setting the position of these elements to be relative to their normal
+position in the document flow. It also adds a top margin of 50px and shifts the elements 500px to
+the right from their original position using the `left` property. This will visually move the
+elements 500px to the right from where they would normally appear on the page. */
+.answer{
+    position:relative; 
+    margin-top: 50px;
+    left: 500px;
+}
+#result{
+    position: relative;
+    width:500px;
+    left:0px;
+}
+ 

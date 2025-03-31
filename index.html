@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text"><h1 class="name">JavaScript Calculator</h1></div>
+    <div class="text1">
+        <div class="row buttons">
+           <!-- The code you provided is creating an input field for entering a number labeled as
+           "Number-1". It is using Bootstrap classes for styling, such as `col` for column layout
+           and `form-control` for styling the input field. The input field has an id of "num1" which
+           can be used to target this element in JavaScript or CSS. The placeholder text "Enter
+           Number" provides a hint to the user about the expected input. -->
+            <div class="col">
+                <label for="num1"><b>Number-1</b></label>
+                <input type="number" class="form-control" id="num1" placeholder="Enter Number">
+            </div>
+            <!-- The code you provided is creating a dropdown menu for selecting an operator (+, -, *, /)
+            in a form. -->
+            <div class="col">
+                <label for="operator"><b>Operator</b></label>
+                <select class="form-control" id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+            </div>
+            <!-- The provided code snippet is creating an input field for entering a number labeled as
+            "Number-2". -->
+            <div class="col">
+                <label for="num2"><b>Number-2</b></label>
+                <input type="number" class="form-control" id="num2" placeholder="Enter Number">
+            </div>
+        </div>
+       <!-- The provided code snippet is creating a row with a centered column that contains a button.
+       The button has the classes "btn btn-danger btn-block" which style it as a red-colored button
+       that spans the full width of its container. The button has an `onclick` attribute set to
+       "calculate()", which means that when the button is clicked, it will trigger the `calculate()`
+       function. This button essentially acts as a submit button for the form or calculator,
+       triggering a calculation process when clicked. -->
+        <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-danger btn-block" onclick="calculate()">Submit</button>
+            </div>
+        </div>
+       <!-- The provided HTML code snippet is creating a section to display the result or answer of the
+       calculation performed using the JavaScript Calculator. Here's what each part of the code is
+       doing: -->
+        <div class="answer">
+            <div class="col">
+                <label for="answer"><b>Answer:</b></label>
+                <input type="text" class="form-control" id="result" readonly>
+            </div>
+        </div>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
